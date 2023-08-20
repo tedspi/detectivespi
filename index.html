@@ -21,8 +21,10 @@
         .nav-tabs {
             border-bottom: 0px solid transparent;
         }
+
         .nav-tabs .nav-link {
             border: 0px solid transparent;
+            padding: 0px;
         }
     </style>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -86,31 +88,41 @@
             </div>
             <div class="section">
                 <h2 id="services-available">Services Available</h2>
-                <div class="row w-100">
-                    <div class="col-3">
+                <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
                         <div class="nav flex-column nav-tabs" role="tablist" aria-orientation="vertical">
-                            <a class="nav-link" id="skip-tracing-tab" data-bs-toggle="tab" aria-controls="v-tabs-home"
-                                data-bs-target="#skip-tracing-tab-pane">Skip Tracing</a>
-                            <a class="nav-link" id="digital-forensics-tab" data-bs-toggle="tab" aria-controls="v-tabs-home"
-                                data-bs-target="#digital-forensics-pane">Digital Forensics</a>
-                            <a class="nav-link" id="gps-tracking-tab" data-bs-toggle="tab" aria-controls="v-tabs-home"
-                                data-bs-target="#gps-tracking-pane">GPS Tracking</a>
-                            <a class="nav-link" id="surveillance-tab" data-bs-toggle="tab" aria-controls="v-tabs-home"
-                                data-bs-target="#surveillance-pane">Surveillance</a>
-                            <a class="nav-link" id="cyber-tab" data-bs-toggle="tab" aria-controls="v-tabs-home"
-                                data-bs-target="#cyber-pane">Cyber Investigations</a>
-                            <a class="nav-link" id="child-custody-tab" data-bs-toggle="tab" aria-controls="v-tabs-home"
-                                data-bs-target="#child-custody-pane">Child Custody</a>
-                            <a class="nav-link" id="missing-persons-tab" data-bs-toggle="tab" aria-controls="v-tabs-home"
-                                data-bs-target="#missing-persons-pane">Missing Persons</a>
-                            <a class="nav-link" id="background-checks-tab" data-bs-toggle="tab" aria-controls="v-tabs-home"
-                                data-bs-target="#background-checks-pane">Background Checks</a>
-                            <a class="nav-link" id="serving-papers-tab" data-bs-toggle="tab" aria-controls="v-tabs-home"
-                                data-bs-target="#serving-papers-pane">Serving Civil Process Papers</a>
+                            <ul>
+                                <li><a class="nav-link" id="skip-tracing-tab" data-bs-toggle="tab"
+                                        aria-controls="v-tabs-home" data-bs-target="#skip-tracing-tab-pane">Skip
+                                        Tracing</a></li>
+                                <li><a class="nav-link" id="digital-forensics-tab" data-bs-toggle="tab"
+                                        aria-controls="v-tabs-home" data-bs-target="#digital-forensics-pane">Digital
+                                        Forensics</a></li>
+                                <li><a class="nav-link" id="gps-tracking-tab" data-bs-toggle="tab"
+                                        aria-controls="v-tabs-home" data-bs-target="#gps-tracking-pane">GPS Tracking</a>
+                                </li>
+                                <li><a class="nav-link" id="surveillance-tab" data-bs-toggle="tab"
+                                        aria-controls="v-tabs-home" data-bs-target="#surveillance-pane">Surveillance</a>
+                                </li>
+                                <li><a class="nav-link" id="cyber-tab" data-bs-toggle="tab" aria-controls="v-tabs-home"
+                                        data-bs-target="#cyber-pane">Cyber Investigations</a></li>
+                                <li><a class="nav-link" id="child-custody-tab" data-bs-toggle="tab"
+                                        aria-controls="v-tabs-home" data-bs-target="#child-custody-pane">Child
+                                        Custody</a></li>
+                                <li><a class="nav-link" id="missing-persons-tab" data-bs-toggle="tab"
+                                        aria-controls="v-tabs-home" data-bs-target="#missing-persons-pane">Missing
+                                        Persons</a></li>
+                                <li><a class="nav-link" id="background-checks-tab" data-bs-toggle="tab"
+                                        aria-controls="v-tabs-home" data-bs-target="#background-checks-pane">Background
+                                        Checks</a></li>
+                                <li><a class="nav-link" id="serving-papers-tab" data-bs-toggle="tab"
+                                        aria-controls="v-tabs-home" data-bs-target="#serving-papers-pane">Serving Civil
+                                        Process Papers</a></li>
+                            </ul>
                         </div>
-
                     </div>
-                    <div class="col-6">
+                    <div class="col-sm-6">
                         <div class="tab-content" id="myTabContent">
                             <div class="tab-pane fade show active" id="skip-tracing-tab-pane" role="tabpanel"
                                 aria-labelledby="skip-tracing-tab" tabindex="0">
@@ -684,7 +696,7 @@
                         </div>
                     </div>
                 </div>
-
+            </div>
 
             </div>
         </div>
